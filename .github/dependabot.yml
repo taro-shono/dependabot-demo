@@ -2,6 +2,11 @@ version: 2
 updates:
   - package-ecosystem: npm
     directories:
-      - "/**/*"
+      - "/packages/a"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: npm
+    directories:
+      - "/packages/b"
     schedule:
       interval: "daily"
